@@ -164,8 +164,6 @@ LIMIT 10;
 burn_rate_df = pd.read_sql_query(analytics_query, conn)
 print(burn_rate_df)
 
-!pip install pdfplumber pandas
-
 import pdfplumber
 import pandas as pd
 
